@@ -3,7 +3,11 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-import GRPS
+try:
+    import GRPS
+except ImportError:
+    pass
+
 import os, sys
 
 if sys.version_info >= (3, 11):
