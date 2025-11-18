@@ -1,0 +1,32 @@
+[project]
+name = "GRPS"
+version = "0.0.1"
+description = "GRPS"
+authors = [
+    { name = "简律纯", email = "leader@hydroroll.team" },
+]
+dependencies = [
+]
+requires-python = ">=3.10"
+readme = "README.rst"
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://grps.hydroroll.team"
+Documentation = "https://grps.hydroroll.team"
+Repository = "https://github.com/HydroRoll-Team/GRPS"
+Changelog = "https://grps.hydroroll.team/zh_CN/latest/changelog.html"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+docs = [
+    "furo>=2025.7.19",
+    "myst-parser>=4.0.1",
+    "sphinx>=8.1.3",
+    "sphinx-autobuild>=2024.10.3",
+    "sphinx-design>=0.6.1",
+    "sphinx-intl>=2.3.1",
+]
