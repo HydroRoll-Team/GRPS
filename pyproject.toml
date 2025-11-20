@@ -1,6 +1,6 @@
 [project]
 name = "GRPS"
-version = "0.0.1"
+version = "0.3.2"
 description = "GRPS"
 authors = [
     { name = "简律纯", email = "leader@hydroroll.team" },
