@@ -71,10 +71,10 @@ gettext_uuid = True  # optional.
 
 html_theme = "furo"
 html_static_path = ["../_static"]
-_html_logo = (
+html_logo = (
     "https://files.hydroroll.team/hotlink-ok/files/image/logo.png"
 )
-html_favicon = _html_logo
+html_favicon = html_logo
 
 html_css_files = [
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css",
