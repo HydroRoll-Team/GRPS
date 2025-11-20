@@ -5,5 +5,5 @@ GRPSv1
 
     specification
     implementation
-    best_practice
+    bestpractice
     glossary
